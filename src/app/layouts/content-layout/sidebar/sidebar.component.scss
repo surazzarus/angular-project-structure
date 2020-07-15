@@ -1,0 +1,15 @@
+@import "src/assets/scss/base/variables";
+
+ul {
+  list-style-type: none;
+  padding: 15px;
+
+  li {
+    padding-bottom: 10px;
+
+    a {
+      color: $primary-color;
+      text-decoration: none;
+    }
+  }
+}
