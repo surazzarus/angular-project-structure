@@ -8,6 +8,7 @@ import { SharedModule } from "./shared/shared.module";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSelectModule } from "@angular/material/select";
 import { MatFormFieldModule } from "@angular/material/form-field";
+import { LayoutsModule } from "./layouts/layouts.module";
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { MatFormFieldModule } from "@angular/material/form-field";
     AppRoutingModule,
     CoreModule,
     SharedModule,
+    LayoutsModule,
     BrowserAnimationsModule,
     MatSelectModule,
     MatFormFieldModule
