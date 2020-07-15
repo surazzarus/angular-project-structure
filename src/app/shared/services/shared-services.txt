@@ -1,0 +1,3 @@
+First make sure if the services can be part of core modules.
+
+Only then make the services that needs to be shared across other modules.
