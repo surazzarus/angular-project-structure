@@ -20,9 +20,7 @@ import { LayoutsModule } from "./layouts/layouts.module";
     CoreModule,
     SharedModule,
     LayoutsModule,
-    BrowserAnimationsModule,
-    MatSelectModule,
-    MatFormFieldModule
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

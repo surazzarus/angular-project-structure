@@ -1,0 +1,24 @@
+@import "src/assets/scss/base/variables";
+$navHeight: 60px;
+
+app-navbar {
+  display: block;
+  height: $navHeight;
+  background: $primary-background-color;
+  color: $primary-color;
+}
+
+main {
+  display: flex;
+  height: calc(100vh - #{$navHeight});
+
+  .sidebar {
+    min-width: 250px;
+    color: $primary-color;
+    background: $secondary-background-color;
+  }
+
+  .container {
+    padding: 15px;
+  }
+}
