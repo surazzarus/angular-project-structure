@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.2.
 
-## What this repository for??
+## Folder Structure
 
 Folder structure for angular project.
 
