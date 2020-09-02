@@ -27,7 +27,7 @@ Folder structure for angular project.
 |  |  |  |  ├── feature1.component.html
 |  |  |  |  ├── feature1.component.scss
 |  |  |  |  ├── feature1.component.ts
-|  |  |  |  ├── feature1.module.ts
+|  |  |  |  └── feature1.module.ts
 |  |  ├── feature2
 |  |  |  ├── components
 |  |  |  ├── services
@@ -41,16 +41,16 @@ Folder structure for angular project.
 |  |  |  ├── home
 |  |  |  |  ├── home.component.html
 |  |  |  |  ├── home.component.scss
-|  |  |  |  ├── home.component.ts
+|  |  |  |  └── home.component.ts
 |  |  |  ├── navbar
 |  |  |  |  ├── navbar.component.html
 |  |  |  |  ├── navbar.component.scss
-|  |  |  |  ├── navbar.component.ts
+|  |  |  |  └── navbar.component.ts
 |  |  |  ├── sidebar
 |  |  |  |  ├── sidebar.component.html
 |  |  |  |  ├── sidebar.component.scss
-|  |  |  |  ├── sidebar.component.ts
-|  |  ├── layouts.module.ts
+|  |  |  |  └── sidebar.component.ts
+|  |  └── layouts.module.ts
 |  ├── shared
 |  |  ├── components
 |  |  ├── interfaces
@@ -76,4 +76,6 @@ Folder structure for angular project.
 ```
 
 ## More??
+Run `npm run build:stats` to build & `npm run analyze` to see the file stats. 
+
 Also, take a look at [Dockerizing Angular Application](https://github.com/surazzarus/angular-docker) if you want to run your application as a Docker Container.
